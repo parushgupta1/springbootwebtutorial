@@ -8,6 +8,7 @@ public class EmployeeDTO {
     String email;
     Integer age;
     Boolean isActive;
+    public EmployeeDTO(){}
 
     public EmployeeDTO(Long id, String name, String email, Integer age, LocalDate dateOfJoining, Boolean isActive) {
         this.id = id;
